@@ -343,6 +343,7 @@ void priorSchedPreemptive()
             }
         }
     }
+
     avgTATpriorP=(float)totTATpriorP/n;
     avgWTpriorP=(float)totWTpriorP/n;
 }
