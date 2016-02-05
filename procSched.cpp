@@ -420,7 +420,7 @@ int main()
         o=0;
 
 	
-    srand (time(NULL));
+    srandom(time(NULL));
     int arr[n];
     for(int i=0;i<n;i++)
     {
